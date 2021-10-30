@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo img {
+    width: 30px;
+    height: 30px;
+    background: none;
+    object-fit: cover;
+}
+
+input {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    border-radius: 50px;
+    padding: 10px;
+    width: 300px;
+}
+input:focus {
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+}
+
+.rightSide {
+    display: flex;
+}
+.rightSide .icons {
+    margin: 0 8px;
+    font-size: 1.35rem;
+}

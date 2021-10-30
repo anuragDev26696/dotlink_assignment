@@ -1,0 +1,41 @@
+.container {
+    margin: 50px auto;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    background-color: #333;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    border-radius: 50px;
+    box-shadow: 0 2px 7px rgba(0,0,0,0.6);
+    margin: 10px auto;
+    width: 500px;
+    max-width: 100%;
+    transition: all 0.5s ease;
+}
+.row:hover {
+    box-shadow: 0 5px 10px rgba(0,0,0,0.8);
+    transition: all 0.5s ease;
+}
+
+.itemDetail {
+    display: flex;
+    align-items: center;
+    text-align: start;
+}
+
+.cameraIcon {
+    font-size: 1.5rem;
+    width: 50px;
+    text-align: center;
+    cursor: pointer;
+}
